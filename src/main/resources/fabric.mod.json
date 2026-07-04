@@ -3,19 +3,19 @@
   "id": "goranime",
   "version": "${version}",
   "name": "GoranIME",
-  "description": "Korean input support for Minecraft on all platforms. Uses manual Hangul composition (dubeolsik) that works on Linux, macOS, and Windows.",
+  "description": "CJK input for all platforms",
   "authors": [
     {
-      "name": "blueon",
+      "name": "Blue_ON",
       "contact": {
-        "sources": "https://github.com/blueon/goranime"
+        "sources": "https://github.com/wb1016/GoranIME"
       }
     }
   ],
   "contact": {
-    "homepage": "https://github.com/blueon/goranime",
-    "sources": "https://github.com/blueon/goranime",
-    "issues": "https://github.com/blueon/goranime/issues"
+    "homepage": "https://github.com/wb1016/GoranIME",
+    "sources": "https://github.com/wb1016/GoranIME",
+    "issues": "https://github.com/wb1016/GoranIME/issues"
   },
   "license": "LGPL-3.0-only",
   "icon": "assets/goranime/icon.png",
@@ -29,9 +29,9 @@
   },
   "mixins": ["goranime.mixins.json"],
   "depends": {
-    "fabricloader": ">=0.19.0",
-    "minecraft": ">=26.1",
-    "fabric-api": "*",
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=${minecraft_version}",
+    "fabric-api": ">=${fabric_version}",
     "yet_another_config_lib_v3": "*"
   },
   "suggests": {
@@ -41,7 +41,9 @@
   "custom": {
     "modmenu": {
       "links": {
-        "modmenu.github": "https://github.com/blueon/goranime"
+        "modmenu.donate": "https://buymeacoffee.com/wb1016",
+        "modmenu.github": "https://github.com/wb1016/goranime",
+        "modmenu.modrinth": "https://modrinth.com/mod/goranime"
       }
     }
   }

@@ -1,0 +1,17 @@
+{
+  "key.category.goranime.keybinds": "GoranIME",
+  "key.goranime.toggle_language": "Schakel Koreaans / Engels",
+  "goranime.config.title": "GoranIME",
+  "goranime.config.page.input": "Invoer",
+  "goranime.config.group.composition": "Samenstelling",
+  "goranime.config.group.indicator": "Indicator",
+  "goranime.config.group.windows": "Windows",
+  "goranime.config.option.prevent_fullwidth": "Voorkom volledige breedte omschakeling in Windows",
+  "goranime.config.option.prevent_fullwidth.tooltip": "In Windows wordt IME gedwongen in halfbreedtemodus te blijven bij het typen van Koreaans.",
+  "goranime.config.option.auto_korean_on_focus": "Auto Koreaans bij focus",
+  "goranime.config.option.auto_korean_on_focus.tooltip": "Activeert automatisch Koreaanse invoer wanneer een tekstveld focus krijgt.",
+  "goranime.config.option.remember_per_screen": "Onthoud per scherm",
+  "goranime.config.option.remember_per_screen.tooltip": "Onthoudt Koreaans/Engels status apart voor elk schermtype.",
+  "goranime.config.option.show_indicator": "Toon indicator",
+  "goranime.config.option.show_indicator.tooltip": "Toont KO/EN badge in tekstvelden tijdens het typen."
+}

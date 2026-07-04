@@ -1,0 +1,17 @@
+{
+  "key.category.goranime.keybinds": "GoranIME",
+  "key.goranime.toggle_language": "تبديل الكورية / الإنجليزية",
+  "goranime.config.title": "GoranIME",
+  "goranime.config.page.input": "الإدخال",
+  "goranime.config.group.composition": "التأليف",
+  "goranime.config.group.indicator": "المؤشر",
+  "goranime.config.group.windows": "Windows",
+  "goranime.config.option.prevent_fullwidth": "منع التبديل إلى العرض الكامل في Windows",
+  "goranime.config.option.prevent_fullwidth.tooltip": "في Windows، يجبر IME على البقاء في وضع نصف العرض عند كتابة الكورية.",
+  "goranime.config.option.auto_korean_on_focus": "الكورية التلقائية عند التركيز",
+  "goranime.config.option.auto_korean_on_focus.tooltip": "تفعيل الإدخال الكوري تلقائياً عند التركيز على حقل نص.",
+  "goranime.config.option.remember_per_screen": "تذكر حسب الشاشة",
+  "goranime.config.option.remember_per_screen.tooltip": "يتذكر حالة الكورية/الإنجليزية بشكل منفصل لكل نوع شاشة.",
+  "goranime.config.option.show_indicator": "إظهار المؤشر",
+  "goranime.config.option.show_indicator.tooltip": "إظهار شارة KO/EN داخل حقول النص عند الكتابة."
+}

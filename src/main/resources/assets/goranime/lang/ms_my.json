@@ -1,0 +1,17 @@
+{
+  "key.category.goranime.keybinds": "GoranIME",
+  "key.goranime.toggle_language": "Tukar Bahasa Korea / Inggeris",
+  "goranime.config.title": "GoranIME",
+  "goranime.config.page.input": "Input",
+  "goranime.config.group.composition": "Komposisi",
+  "goranime.config.group.indicator": "Penunjuk",
+  "goranime.config.group.windows": "Windows",
+  "goranime.config.option.prevent_fullwidth": "Cegah penukaran lebar penuh Windows",
+  "goranime.config.option.prevent_fullwidth.tooltip": "Di Windows, paksa IME kekal dalam mod separuh lebar semasa menaip Korea.",
+  "goranime.config.option.auto_korean_on_focus": "Korea automatik semasa fokus",
+  "goranime.config.option.auto_korean_on_focus.tooltip": "Aktifkan input Korea secara automatik apabila medan teks mendapat fokus.",
+  "goranime.config.option.remember_per_screen": "Ingat setiap skrin",
+  "goranime.config.option.remember_per_screen.tooltip": "Ingat status Korea/Inggeris secara berasingan untuk setiap jenis skrin.",
+  "goranime.config.option.show_indicator": "Tunjukkan penunjuk",
+  "goranime.config.option.show_indicator.tooltip": "Tunjukkan lencana KO/EN di dalam medan teks semasa menaip."
+}

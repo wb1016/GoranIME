@@ -1,9 +1,17 @@
 {
-  "key.category.goranime.keybinds": "GoranIME",
+  "key.category.goranime.keybinds": "고라니 IME",
   "key.goranime.toggle_language": "한국어 / 영어 전환",
+  "goranime.config.title": "고라니 IME",
   "goranime.config.page.input": "입력",
+  "goranime.config.group.composition": "입력 설정",
+  "goranime.config.group.indicator": "표시기",
+  "goranime.config.group.windows": "Windows",
   "goranime.config.option.prevent_fullwidth": "Windows 전각 전환 방지",
   "goranime.config.option.prevent_fullwidth.tooltip": "Windows에서 IME가 전각 모드로 전환될 때 반각 모드로 되돌립니다.",
   "goranime.config.option.auto_korean_on_focus": "텍스트 필드 진입 시 한글 모드",
-  "goranime.config.option.auto_korean_on_focus.tooltip": "텍스트 필드에 포커스가 가면 자동으로 한글 입력 모드로 전환합니다."
+  "goranime.config.option.auto_korean_on_focus.tooltip": "텍스트 필드에 포커스가 가면 자동으로 한글 입력 모드로 전환합니다.",
+  "goranime.config.option.remember_per_screen": "화면별 상태 기억",
+  "goranime.config.option.remember_per_screen.tooltip": "각 화면 유형별로 한국어/영어 상태를 따로 기억합니다.",
+  "goranime.config.option.show_indicator": "표시기 보이기",
+  "goranime.config.option.show_indicator.tooltip": "텍스트 필드에 입력 시 KO/EN 표시기를 보여줍니다."
 }

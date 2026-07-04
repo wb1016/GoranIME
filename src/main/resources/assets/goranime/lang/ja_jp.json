@@ -1,0 +1,17 @@
+{
+  "key.category.goranime.keybinds": "GoranIME",
+  "key.goranime.toggle_language": "韓国語 / 英語 切替",
+  "goranime.config.title": "GoranIME",
+  "goranime.config.page.input": "入力",
+  "goranime.config.group.composition": "組み合わせ",
+  "goranime.config.group.indicator": "インジケーター",
+  "goranime.config.group.windows": "Windows",
+  "goranime.config.option.prevent_fullwidth": "Windowsの全角切替防止",
+  "goranime.config.option.prevent_fullwidth.tooltip": "Windowsで韓国語入力時にIMEを半角モードに固定します。",
+  "goranime.config.option.auto_korean_on_focus": "フォーカス時に韓国語モード",
+  "goranime.config.option.auto_korean_on_focus.tooltip": "テキストフィールドにフォーカスした時、自動で韓国語入力を有効にします。",
+  "goranime.config.option.remember_per_screen": "画面ごとに状態を記憶",
+  "goranime.config.option.remember_per_screen.tooltip": "画面の種類ごとに韓国語/英語の状態を別々に記憶します。",
+  "goranime.config.option.show_indicator": "インジケーターを表示",
+  "goranime.config.option.show_indicator.tooltip": "入力時にテキストフィールド内に KO/EN バッジを表示します。"
+}

@@ -1,5 +1,5 @@
 plugins {
-    id "net.fabricmc.fabric-loom" version "1.17-SNAPSHOT"
+    id "net.fabricmc.fabric-loom" version "${loom_version}"
     id "maven-publish"
 }
 
@@ -7,7 +7,7 @@ group = "dev.blueon"
 version = "${project.mod_version}+mc${project.minecraft_version}"
 
 base {
-    archivesName = project.mod_id
+    archivesName = project.archives_base_name
 }
 
 java {
@@ -28,7 +28,7 @@ repositories {
 
 dependencies {
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
-    implementation "net.fabricmc:fabric-loader:${project.fabric_loader_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
     // Fabric API (required for key binding registration, screen API, etc.)
     implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
@@ -63,20 +63,31 @@ loom {
 }
 
 tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs << "-Xlint:deprecation"
     options.encoding = "UTF-8"
     options.release = Integer.parseInt(project.java_version)
 }
 
 processResources {
-    inputs.property "version", project.version
+	def versionProvider = providers.gradleProperty('mod_version')
+    def mcversionProvider = providers.gradleProperty('minecraft_version')
+    def loaderversionProvider = providers.gradleProperty('loader_version')
+    def fabricversionProvider = providers.gradleProperty('fabric_api_version')
 
-    filesMatching("fabric.mod.json") {
-        expand "version": project.version
+    inputs.property "version", versionProvider.getOrElse("0.0.0")
+
+	filesMatching("fabric.mod.json") {
+        expand(
+            "version": versionProvider.getOrElse("0.0.0"),
+            "minecraft_version": mcversionProvider.getOrElse("minecraft_version"),
+            "loader_version": loaderversionProvider.getOrElse("loader_version"),
+            "fabric_version": fabricversionProvider.getOrElse("fabric_api_version")
+        )
     }
 }
 
 jar {
     from("LICENSE") {
-        rename { "${it}_${project.mod_id}" }
+        rename { "${it}" }
     }
 }

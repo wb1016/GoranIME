@@ -20,24 +20,28 @@ public final class GoranimeModMenuIntegration implements ModMenuApi {
         GoranimeConfig config = GoranimeConfig.get();
 
         return YetAnotherConfigLib.createBuilder()
-            .title(Component.literal("GoranIME"))
+            .title(Component.translatable("goranime.config.title"))
             .category(
                 ConfigCategory.createBuilder()
-                    .name(Component.literal("Input"))
+                    .name(Component.translatable("goranime.config.page.input"))
                     .group(
                         OptionGroup.createBuilder()
-                            .name(Component.literal("Composition"))
+                            .name(
+                                Component.translatable(
+                                    "goranime.config.group.composition"
+                                )
+                            )
                             .option(
                                 Option.<Boolean>createBuilder()
                                     .name(
-                                        Component.literal(
-                                            "Auto Korean on Focus"
+                                        Component.translatable(
+                                            "goranime.config.option.auto_korean_on_focus"
                                         )
                                     )
                                     .description(
                                         OptionDescription.of(
-                                            Component.literal(
-                                                "Automatically enable Korean input when a text field gains focus."
+                                            Component.translatable(
+                                                "goranime.config.option.auto_korean_on_focus.tooltip"
                                             )
                                         )
                                     )
@@ -54,12 +58,14 @@ public final class GoranimeModMenuIntegration implements ModMenuApi {
                             .option(
                                 Option.<Boolean>createBuilder()
                                     .name(
-                                        Component.literal("Remember per Screen")
+                                        Component.translatable(
+                                            "goranime.config.option.remember_per_screen"
+                                        )
                                     )
                                     .description(
                                         OptionDescription.of(
-                                            Component.literal(
-                                                "Remember Korean/English state separately for each screen type."
+                                            Component.translatable(
+                                                "goranime.config.option.remember_per_screen.tooltip"
                                             )
                                         )
                                     )
@@ -77,14 +83,22 @@ public final class GoranimeModMenuIntegration implements ModMenuApi {
                     )
                     .group(
                         OptionGroup.createBuilder()
-                            .name(Component.literal("Indicator"))
+                            .name(
+                                Component.translatable(
+                                    "goranime.config.group.indicator"
+                                )
+                            )
                             .option(
                                 Option.<Boolean>createBuilder()
-                                    .name(Component.literal("Show Indicator"))
+                                    .name(
+                                        Component.translatable(
+                                            "goranime.config.option.show_indicator"
+                                        )
+                                    )
                                     .description(
                                         OptionDescription.of(
-                                            Component.literal(
-                                                "Show KO badge inside text fields when Korean mode is active."
+                                            Component.translatable(
+                                                "goranime.config.option.show_indicator.tooltip"
                                             )
                                         )
                                     )
@@ -102,18 +116,22 @@ public final class GoranimeModMenuIntegration implements ModMenuApi {
                     )
                     .group(
                         OptionGroup.createBuilder()
-                            .name(Component.literal("Windows"))
+                            .name(
+                                Component.translatable(
+                                    "goranime.config.group.windows"
+                                )
+                            )
                             .option(
                                 Option.<Boolean>createBuilder()
                                     .name(
-                                        Component.literal(
-                                            "Prevent Fullwidth Switching"
+                                        Component.translatable(
+                                            "goranime.config.option.prevent_fullwidth"
                                         )
                                     )
                                     .description(
                                         OptionDescription.of(
-                                            Component.literal(
-                                                "On Windows, force IME to stay in halfwidth mode."
+                                            Component.translatable(
+                                                "goranime.config.option.prevent_fullwidth.tooltip"
                                             )
                                         )
                                     )

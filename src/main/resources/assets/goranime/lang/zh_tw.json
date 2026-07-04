@@ -1,0 +1,17 @@
+{
+  "key.category.goranime.keybinds": "GoranIME",
+  "key.goranime.toggle_language": "切换韩语 / 英语",
+  "goranime.config.title": "GoranIME",
+  "goranime.config.page.input": "输入",
+  "goranime.config.group.composition": "组合",
+  "goranime.config.group.indicator": "指示器",
+  "goranime.config.group.windows": "Windows",
+  "goranime.config.option.prevent_fullwidth": "防止 Windows 全角切换",
+  "goranime.config.option.prevent_fullwidth.tooltip": "在 Windows 上强制 IME 在输入韩语时保持半角模式。",
+  "goranime.config.option.auto_korean_on_focus": "聚焦时自动启用韩语",
+  "goranime.config.option.auto_korean_on_focus.tooltip": "当文本框获得焦点时自动启用韩语输入。",
+  "goranime.config.option.remember_per_screen": "按屏幕记忆状态",
+  "goranime.config.option.remember_per_screen.tooltip": "按屏幕类型分别记忆韩语/英语状态。",
+  "goranime.config.option.show_indicator": "显示指示器",
+  "goranime.config.option.show_indicator.tooltip": "输入时在文本框内显示 KO/EN 标记。"
+}

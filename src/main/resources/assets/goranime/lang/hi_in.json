@@ -1,0 +1,17 @@
+{
+  "key.category.goranime.keybinds": "GoranIME",
+  "key.goranime.toggle_language": "कोरियाई / अंग्रेज़ी टॉगल",
+  "goranime.config.title": "GoranIME",
+  "goranime.config.page.input": "इनपुट",
+  "goranime.config.group.composition": "संयोजन",
+  "goranime.config.group.indicator": "संकेतक",
+  "goranime.config.group.windows": "Windows",
+  "goranime.config.option.prevent_fullwidth": "Windows में पूर्ण चौड़ाई स्विचन रोकें",
+  "goranime.config.option.prevent_fullwidth.tooltip": "Windows पर कोरियाई टाइप करते समय IME को आधी चौड़ाई मोड में रहने के लिए बाध्य करें।",
+  "goranime.config.option.auto_korean_on_focus": "फ़ोकस पर स्वचालित कोरियाई",
+  "goranime.config.option.auto_korean_on_focus.tooltip": "जब टेक्स्ट फ़ील्ड फ़ोकस प्राप्त करे तो स्वचालित रूप से कोरियाई इनपुट सक्षम करें।",
+  "goranime.config.option.remember_per_screen": "स्क्रीन के अनुसार याद रखें",
+  "goranime.config.option.remember_per_screen.tooltip": "प्रत्येक स्क्रीन प्रकार के लिए कोरियाई/अंग्रेज़ी स्थिति अलग-अलग याद रखें।",
+  "goranime.config.option.show_indicator": "संकेतक दिखाएं",
+  "goranime.config.option.show_indicator.tooltip": "टाइप करते समय टेक्स्ट फ़ील्ड के अंदर KO/EN बैज दिखाएं।"
+}

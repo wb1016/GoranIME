@@ -1,0 +1,17 @@
+{
+  "key.category.goranime.keybinds": "GoranIME",
+  "key.goranime.toggle_language": "สลับ ภาษาเกาหลี / อังกฤษ",
+  "goranime.config.title": "GoranIME",
+  "goranime.config.page.input": "การป้อนข้อมูล",
+  "goranime.config.group.composition": "การประกอบ",
+  "goranime.config.group.indicator": "ตัวบ่งชี้",
+  "goranime.config.group.windows": "Windows",
+  "goranime.config.option.prevent_fullwidth": "ป้องกันการสลับความกว้างเต็มใน Windows",
+  "goranime.config.option.prevent_fullwidth.tooltip": "บังคับให้ IME อยู่ในโหมดครึ่งความกว้างเมื่อพิมพ์ภาษาเกาหลีบน Windows",
+  "goranime.config.option.auto_korean_on_focus": "ภาษาเกาหลีอัตโนมัติเมื่อโฟกัส",
+  "goranime.config.option.auto_korean_on_focus.tooltip": "เปิดใช้งานการป้อนภาษาเกาหลีโดยอัตโนมัติเมื่อฟิลด์ข้อความได้รับโฟกัส",
+  "goranime.config.option.remember_per_screen": "จำตามหน้าจอ",
+  "goranime.config.option.remember_per_screen.tooltip": "จำสถานะภาษาเกาหลี/อังกฤษแยกกันสำหรับแต่ละประเภทหน้าจอ",
+  "goranime.config.option.show_indicator": "แสดงตัวบ่งชี้",
+  "goranime.config.option.show_indicator.tooltip": "แสดงป้าย KO/EN ภายในฟิลด์ข้อความเมื่อพิมพ์"
+}

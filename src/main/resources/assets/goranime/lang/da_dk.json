@@ -1,0 +1,17 @@
+{
+  "key.category.goranime.keybinds": "GoranIME",
+  "key.goranime.toggle_language": "Skift Koreansk / Engelsk",
+  "goranime.config.title": "GoranIME",
+  "goranime.config.page.input": "Input",
+  "goranime.config.group.composition": "Sammensætning",
+  "goranime.config.group.indicator": "Indikator",
+  "goranime.config.group.windows": "Windows",
+  "goranime.config.option.prevent_fullwidth": "Forhindr fuldbreddeskift på Windows",
+  "goranime.config.option.prevent_fullwidth.tooltip": "På Windows tvinger IME til at forblive i halvbredde-tilstand ved indtastning af koreansk.",
+  "goranime.config.option.auto_korean_on_focus": "Auto koreansk ved fokus",
+  "goranime.config.option.auto_korean_on_focus.tooltip": "Aktiverer automatisk koreansk indtastning når et tekstfelt får fokus.",
+  "goranime.config.option.remember_per_screen": "Husk pr. skærm",
+  "goranime.config.option.remember_per_screen.tooltip": "Husk koreansk/engelsk status separat for hver skærmtype.",
+  "goranime.config.option.show_indicator": "Vis indikator",
+  "goranime.config.option.show_indicator.tooltip": "Vis KO/EN mærke i tekstfelter under indtastning."
+}

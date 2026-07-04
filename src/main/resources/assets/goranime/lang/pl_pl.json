@@ -1,0 +1,17 @@
+{
+  "key.category.goranime.keybinds": "GoranIME",
+  "key.goranime.toggle_language": "Przełącz koreański / angielski",
+  "goranime.config.title": "GoranIME",
+  "goranime.config.page.input": "Wprowadzanie",
+  "goranime.config.group.composition": "Kompozycja",
+  "goranime.config.group.indicator": "Wskaźnik",
+  "goranime.config.group.windows": "Windows",
+  "goranime.config.option.prevent_fullwidth": "Zapobiegaj przełączaniu pełnej szerokości w Windows",
+  "goranime.config.option.prevent_fullwidth.tooltip": "W Windows wymusza na IME pozostanie w trybie połowy szerokości podczas pisania po koreańsku.",
+  "goranime.config.option.auto_korean_on_focus": "Auto-koreański przy fokusie",
+  "goranime.config.option.auto_korean_on_focus.tooltip": "Automatycznie włącza koreański input gdy pole tekstowe otrzymuje fokus.",
+  "goranime.config.option.remember_per_screen": "Zapamiętaj dla ekranu",
+  "goranime.config.option.remember_per_screen.tooltip": "Zapamiętuje stan koreański/angielski osobno dla każdego typu ekranu.",
+  "goranime.config.option.show_indicator": "Pokaż wskaźnik",
+  "goranime.config.option.show_indicator.tooltip": "Pokazuje znaczek KO/EN w polach tekstowych podczas pisania."
+}

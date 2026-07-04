@@ -1,0 +1,17 @@
+{
+  "key.category.goranime.keybinds": "GoranIME",
+  "key.goranime.toggle_language": "Korece / İngilizce değiştir",
+  "goranime.config.title": "GoranIME",
+  "goranime.config.page.input": "Girdi",
+  "goranime.config.group.composition": "Kompozisyon",
+  "goranime.config.group.indicator": "Gösterge",
+  "goranime.config.group.windows": "Windows",
+  "goranime.config.option.prevent_fullwidth": "Windows tam genişlik geçişini önle",
+  "goranime.config.option.prevent_fullwidth.tooltip": "Windows'ta Korece yazarken IME'yi yarım genişlik modunda kalmaya zorlar.",
+  "goranime.config.option.auto_korean_on_focus": "Odakta otomatik Korece",
+  "goranime.config.option.auto_korean_on_focus.tooltip": "Bir metin alanı odaklandığında otomatik olarak Korece girişi etkinleştirir.",
+  "goranime.config.option.remember_per_screen": "Ekran başına hatırla",
+  "goranime.config.option.remember_per_screen.tooltip": "Korece/İngilizce durumunu her ekran türü için ayrı ayrı hatırlar.",
+  "goranime.config.option.show_indicator": "Göstergeyi göster",
+  "goranime.config.option.show_indicator.tooltip": "Yazarken metin alanlarının içinde KO/EN rozeti gösterir."
+}

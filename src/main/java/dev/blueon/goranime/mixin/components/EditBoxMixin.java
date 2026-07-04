@@ -118,6 +118,7 @@ abstract class EditBoxMixin implements PreeditState {
         int qwertyIdx = KeyboardLayout.INSTANCE.qwertyIndex(ch);
         if (qwertyIdx == -1) {
             KeyboardLayout.INSTANCE.assemblePosition = -1;
+            ((EditBox) (Object) this).insertText(String.valueOf(ch));
             return;
         }
 

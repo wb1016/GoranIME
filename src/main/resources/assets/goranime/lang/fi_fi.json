@@ -1,0 +1,17 @@
+{
+  "key.category.goranime.keybinds": "GoranIME",
+  "key.goranime.toggle_language": "Vaihda korea / englanti",
+  "goranime.config.title": "GoranIME",
+  "goranime.config.page.input": "Syöte",
+  "goranime.config.group.composition": "Koostumus",
+  "goranime.config.group.indicator": "Ilmaisin",
+  "goranime.config.group.windows": "Windows",
+  "goranime.config.option.prevent_fullwidth": "Estä koko leveyden vaihto Windowsissa",
+  "goranime.config.option.prevent_fullwidth.tooltip": "Windowsissa pakottaa IME:n pysymään puolileveystilassa koreaa kirjoittaessa.",
+  "goranime.config.option.auto_korean_on_focus": "Auto korea fokuksessa",
+  "goranime.config.option.auto_korean_on_focus.tooltip": "Ottaa automaattisesti käyttöön korean syötteen kun tekstikenttä saa fokuksen.",
+  "goranime.config.option.remember_per_screen": "Muista näyttökohtaisesti",
+  "goranime.config.option.remember_per_screen.tooltip": "Muistaa korean/englannin tilan erikseen jokaiselle näyttötyypille.",
+  "goranime.config.option.show_indicator": "Näytä ilmaisin",
+  "goranime.config.option.show_indicator.tooltip": "Näyttää KO/EN-merkin tekstikentissä kirjoittaessa."
+}

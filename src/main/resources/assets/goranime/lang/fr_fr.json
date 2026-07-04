@@ -1,0 +1,17 @@
+{
+  "key.category.goranime.keybinds": "GoranIME",
+  "key.goranime.toggle_language": "Basculer Coréen / Anglais",
+  "goranime.config.title": "GoranIME",
+  "goranime.config.page.input": "Saisie",
+  "goranime.config.group.composition": "Composition",
+  "goranime.config.group.indicator": "Indicateur",
+  "goranime.config.group.windows": "Windows",
+  "goranime.config.option.prevent_fullwidth": "Empêcher le basculement pleine largeur sur Windows",
+  "goranime.config.option.prevent_fullwidth.tooltip": "Sur Windows, force l'IME à rester en mode demi-chasse lors de la saisie du coréen.",
+  "goranime.config.option.auto_korean_on_focus": "Coréen automatique au focus",
+  "goranime.config.option.auto_korean_on_focus.tooltip": "Active automatiquement la saisie coréenne lorsqu'un champ de texte obtient le focus.",
+  "goranime.config.option.remember_per_screen": "Mémoriser par écran",
+  "goranime.config.option.remember_per_screen.tooltip": "Mémorise l'état coréen/anglais séparément pour chaque type d'écran.",
+  "goranime.config.option.show_indicator": "Afficher l'indicateur",
+  "goranime.config.option.show_indicator.tooltip": "Affiche un badge KO/EN dans les champs de texte lors de la saisie."
+}

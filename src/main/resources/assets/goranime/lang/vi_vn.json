@@ -1,0 +1,17 @@
+{
+  "key.category.goranime.keybinds": "GoranIME",
+  "key.goranime.toggle_language": "Chuyển đổi Tiếng Hàn / Tiếng Anh",
+  "goranime.config.title": "GoranIME",
+  "goranime.config.page.input": "Nhập liệu",
+  "goranime.config.group.composition": "Tổ hợp",
+  "goranime.config.group.indicator": "Chỉ thị",
+  "goranime.config.group.windows": "Windows",
+  "goranime.config.option.prevent_fullwidth": "Ngăn chuyển đổi độ rộng đầy đủ trên Windows",
+  "goranime.config.option.prevent_fullwidth.tooltip": "Trên Windows, buộc IME ở chế độ nửa độ rộng khi gõ tiếng Hàn.",
+  "goranime.config.option.auto_korean_on_focus": "Tự động tiếng Hàn khi Focus",
+  "goranime.config.option.auto_korean_on_focus.tooltip": "Tự động bật nhập liệu tiếng Hàn khi trường văn bản được focus.",
+  "goranime.config.option.remember_per_screen": "Nhớ theo màn hình",
+  "goranime.config.option.remember_per_screen.tooltip": "Nhớ trạng thái tiếng Hàn/tiếng Anh riêng biệt cho từng loại màn hình.",
+  "goranime.config.option.show_indicator": "Hiển thị chỉ thị",
+  "goranime.config.option.show_indicator.tooltip": "Hiển thị huy hiệu KO/EN bên trong trường văn bản khi gõ."
+}
