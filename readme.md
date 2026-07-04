@@ -1,3 +1,4 @@
+![gorani-icon](https://raw.githubusercontent.com/wb1016/GoranIME/refs/heads/main/goranipixel-ss.png)
 # GoranIME
 an IME mod for Minecraft Java Edition 26.2+, Fabric loader. it provides CJK input method in minecraft properly.
 
@@ -32,5 +33,5 @@ need to be checked. if you checked it, submit issue with screenshot proof.
 - Intel Mac
 
 # where did 'GoranIME' name came from?
-![goranii.webp](https://raw.githubusercontent.com/wb1016/GoranIME/refs/heads/main/goranii.webp)
+![goranii.webp](https://raw.githubusercontent.com/wb1016/GoranIME/refs/heads/main/goranii.webp)\
 '고라니'(Hydropotes inermis), also known as Water deer or Vampire deer, reads as 'gorani'. it is deer species that inhabits Korea and China east.
