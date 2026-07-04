@@ -1,0 +1,9 @@
+{
+  "key.category.goranime.keybinds": "GoranIME",
+  "key.goranime.toggle_language": "Toggle Korean / English",
+  "goranime.config.page.input": "Input",
+  "goranime.config.option.prevent_fullwidth": "Prevent Windows Fullwidth Switching",
+  "goranime.config.option.prevent_fullwidth.tooltip": "On Windows, force IME to stay in halfwidth mode when typing Korean.",
+  "goranime.config.option.auto_korean_on_focus": "Auto Korean on Focus",
+  "goranime.config.option.auto_korean_on_focus.tooltip": "Automatically enable Korean input when a text field gains focus."
+}
