@@ -14,6 +14,7 @@ an IME mod for Minecraft Java Edition 26.2+, Fabric loader. it provides CJK inpu
 - more input languages support like Hanyu Pinyin, Romaji
 
 ## minecraft version support
+|version|status
 |-|-|
 |<=1.21.11|no plan|
 |26.1.2|planned|
