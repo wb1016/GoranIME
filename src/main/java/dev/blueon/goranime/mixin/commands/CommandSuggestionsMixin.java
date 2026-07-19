@@ -45,15 +45,15 @@ abstract class CommandSuggestionsMixin {
             cursor,
             composition
         );
-        box.setValue(result.text());
+        box.goranime$setValue(result.text());
         box.setCursorPos(result.cursor());
-        box.setHighlightPos(result.cursor());
+        box.goranime$setHighlightPos(result.cursor());
         try {
             original.call();
         } finally {
-            box.setValue(value);
+            box.goranime$setValue(value);
             box.setCursorPos(cursor);
-            box.setHighlightPos(highlight);
+            box.goranime$setHighlightPos(highlight);
         }
     }
 

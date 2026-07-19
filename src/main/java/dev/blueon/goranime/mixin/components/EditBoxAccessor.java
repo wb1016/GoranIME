@@ -10,7 +10,7 @@ public interface EditBoxAccessor {
     String getValue();
 
     @Accessor("value")
-    void setValue(String value);
+    void goranime$setValue(String value);
 
     @Accessor("cursorPos")
     int getCursorPos();
@@ -22,7 +22,7 @@ public interface EditBoxAccessor {
     int getHighlightPos();
 
     @Accessor("highlightPos")
-    void setHighlightPos(int pos);
+    void goranime$setHighlightPos(int pos);
 
     @Accessor("maxLength")
     int getMaxLength();

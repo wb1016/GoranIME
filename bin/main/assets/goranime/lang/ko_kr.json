@@ -1,9 +1,0 @@
-{
-  "key.category.goranime.keybinds": "GoranIME",
-  "key.goranime.toggle_language": "한국어 / 영어 전환",
-  "goranime.config.page.input": "입력",
-  "goranime.config.option.prevent_fullwidth": "Windows 전각 전환 방지",
-  "goranime.config.option.prevent_fullwidth.tooltip": "Windows에서 IME가 전각 모드로 전환될 때 반각 모드로 되돌립니다.",
-  "goranime.config.option.auto_korean_on_focus": "텍스트 필드 진입 시 한글 모드",
-  "goranime.config.option.auto_korean_on_focus.tooltip": "텍스트 필드에 포커스가 가면 자동으로 한글 입력 모드로 전환합니다."
-}

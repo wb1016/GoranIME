@@ -218,7 +218,7 @@ abstract class EditBoxMixin implements PreeditState {
                 String after = val.substring(cursor);
                 box.setValue(before + text + after);
                 acc.setCursorPos(cursor - 1 + text.length());
-                acc.setHighlightPos(cursor - 1 + text.length());
+                acc.goranime$setHighlightPos(cursor - 1 + text.length());
             }
         }
     }
